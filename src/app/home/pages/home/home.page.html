@@ -1,0 +1,22 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>
+      Home Module
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+  <ion-grid>
+    <ion-row>
+      <ion-col size="12">
+        <ul>
+          <ion-button color="primary" routerLink="/feature" routerDirection="forward">Feature</ion-button>
+          <ion-button color="primary" (click)="navToFeature()">Programatically to Feature</ion-button>
+        </ul>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
